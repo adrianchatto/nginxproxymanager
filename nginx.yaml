@@ -20,6 +20,6 @@ services:
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
 
-    volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+volumes:
+      - /mnt/MainDrive/Config/nginx/data:/data
+      - /mnt/MainDrive/Config/nginx/letsencrypt:/etc/letsencrypt
